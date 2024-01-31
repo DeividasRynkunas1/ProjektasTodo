@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block "title" %}Uzduotys{% endblock %}
+
+{% block "content" %}
+{% for uzduotis in uzrasai %}
+<p>{{ uzduotis }}</p>
+{% endfor %}
+{% endblock %}
